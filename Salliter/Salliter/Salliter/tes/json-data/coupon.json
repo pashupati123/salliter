@@ -1,0 +1,51 @@
+[
+  {
+  	"disc": "Paytm", 
+    "src": "https://paytm-travel.s3-us-west-2.amazonaws.com/Marketing/Bishal/MONSOONFLY_Carousel_640X378.jpg", 
+    "promocode": "MONSOONFLY", 
+    "site_link": "https://paytm.com/flights", 
+    "validity": "9th Oct"
+   }, 
+    
+   {
+   	"disc": "Goibigo", 
+   	"src": "https://s3-us-west-2.amazonaws.com/paytm-travel/Marketing/Rajesh/flytwo.jpg", 
+   	"promocode": "FLYTWO", 
+   	"site_link": "https://paytm.com/flights", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "Paytm", 
+   	"src": "https://s3-us-west-2.amazonaws.com/paytm-travel/Marketing/Rajesh/FLY2019_Carousel_640X378+(1).jpg", 
+   	"promocode": "FLY2019", 
+   	"site_link": "https://paytm.com/flights", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "Paytm", 
+   	"src": "https://s3-us-west-2.amazonaws.com/paytm-travel/Marketing/Prachi/FLYINTL_Carousel.jpg", 
+   	"promocode": "FLYINTL", 
+   	"site_link": "https://paytm.com/flights", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "MMT", 
+   	"src": "https://s3-us-west-2.amazonaws.com/paytm-travel/Marketing/Prachi/Carousel---International-Flights-640x372-(2).jpg", 
+   	"promocode": "FLYINT100", 
+   	"site_link": "https://paytm.com/flights", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "savemonk", 
+   	"src": "https://www.yatra.com/ythomepagecms/media/todayspick_bus/2019/Jul/c08108b569f2770e236c136fbcaeacf6.png",
+   	"promocode": "FLYSTAR", 
+   	"site_link": "https://paytm.com/flights", 
+   	"validity": "9th Oct"
+   }
+ ]
+
+ 

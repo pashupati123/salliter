@@ -1,0 +1,30 @@
+
+{
+"ATQ-AmritsarBLR-Bangalore2019-12-22": {
+        "arrival_time": "13:00",
+        "depart_time": "09:50",
+        "flight": "IndiGo",
+        "number_of_stop": "Non Stop",
+        "price": "7,105",
+        "travel_time": "3h 10m",
+        "coupon_code":{
+            "paytm_code":["abc","xyz",....],
+            "mmt_code":["abc","xyz",....],
+            "goibigo_code":["abc","xyz",...]
+        }
+    },
+    "BLR-BangaloreATQ-Amritsar2019-12-22": {
+        "arrival_time": "13:00",
+        "depart_time": "09:50",
+        "flight": "IndiGo",
+        "number_of_stop": "Non Stop",
+        "price": "7,105",
+        "travel_time": "3h 10m",
+        "coupon_code":{
+            "paytm_code":["abc","xyz",....],
+            "mmt_code":["abc","xyz",....],
+            "goibigo_code":["abc","xyz",...]
+        }
+    }
+}
+

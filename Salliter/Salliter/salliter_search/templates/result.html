@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="/static/Lib/owlcarousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/static/Lib/owlcarousel/dist/assets/owl.theme.default.css">
+
+    <script src="/static/Lib/owlcarousel/dist/owl.carousel.min.js"></script>
+    
+    <link href="/static/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="/static/flight_result.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link href="/static/css/responsive/responsive.css" rel="stylesheet">
+    
+    <style>
+.ml2 {
+  font-weight: 900;
+  font-size: 1em;
+  text-align:center;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+img {
+  border-radius: 50%;
+}
+
+  .button1 {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10 px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {
+    border: 1px dashed #017959;
+    background-color: white;
+  color: white;
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10 px;
+  margin: 4px 2px;
+  cursor: pointer;
+    
+}
+
+.fl {
+        background-color: grey;
+        color: white;
+        margin: 30px;
+        padding:20px;
+        width:1000px;
+        height: 10px;
+    }
+  
+
+.menu-wrapper {
+  position: relative;
+  max-width: 1000px;
+  height: 40px; // hide the scroll bar
+  
+  z-index: 999999;
+}
+   
+
+.menu {
+  height: 120px; // hide the scroll bar
+  background: #f3f3f3;
+ 
+  white-space: nowrap;
+  overflow-x: hidden;
+  
+  -webkit-overflow-scrolling: touch;
+}
+.item {
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+.paddles {
+}
+.paddle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2em;
+}
+.left-paddle {
+  left: 0;
+}
+.right-paddle {
+  right: 0;
+}
+.hidden {
+  display: none;
+}
+
+.print {
+  margin: auto;
+  max-width: 500px;
+  
+span {
+    display: inline-block;
+    width: 100px;
+  }
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    
+     background: #de1f63;
+
+    }
+
+.coupon_button1 {
+  background-color: orange; /* Green */
+  border: none;
+  color: white;
+  height: 50px;
+  width: 200px;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 1px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.coupon_button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.sidebarside {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  /*.sidebar a {float: left;}*/
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  /*.sidebar a {
+    text-align: center;
+    float: none;*/
+  }
+}
+
+</style>
+</head>
+
+
+
+
+<body style="background-color:#E6E6FA">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="http://127.0.0.1:5000/">Salliter</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+       <a class="nav-link" href="http://127.0.0.1:5000/">Cheapest Flights <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="http://127.0.0.1:5000/bus"> Fastest Flights  <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">  <span class="blinking">Refer and Earn</span> <span class="sr-only">(current)</span></a>
+                     </li> 
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Fashion</a>
+          <a class="dropdown-item" href="#">Mobile</a>
+          <a class="dropdown-item" href="#">Food</a>
+        </div>
+      </li>
+
+    </ul>
+    <ul class="navbar-nav navbar-right">
+                           
+                                  <li class="nav-item active">
+                                        <a class="nav-link" href="#" onclick = "showLoginModal()" >Log in <span class="sr-only">(current)</span></a>
+                                      </li>
+                          </ul>
+  </div>
+</nav>
+
+              <!--                                
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        &emsp; <a class="navbar-brand" href="http://127.0.0.1:5000/"><span style="font-size: 30px;margin-left:20%">Salliter</span></a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                
+                         <li class="nav-item active">
+                            <a class="nav-link" href="index.html"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Cheapest Flights <span class="sr-only">(current)</span></a>
+                         </li> 
+                         <li class="nav-item active">
+                            <a class="nav-link" href="index.html"> &emsp;Fastest Flights <span class="sr-only">(current)</span></a>
+                         </li> 
+                         
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#"> &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;<span class="blinking">Refer and Earn</span> <span class="sr-only">(current)</span></a>
+                     </li>  
+                     
+                     <li class="nav-item active">
+                        <div class="dropdownmore">
+                        <a class="nav-link" href="#"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  <span style="color:white"> More+ </span><span class="sr-only">(current)</span></a>
+                        <div class="dropdownmore-content">
+                             <a href="#">Fashion</a>
+                             <a href="#">Mobile</a>
+                             <a href="#">Movies</a>
+                        </div>
+                      </div>
+                     </li>
+
+                     <li class="nav-item active">
+                        <a class="nav-link" href="http://127.0.0.1:5000/about"> &emsp;&emsp;&emsp;  <span style="color:white">About Us</span> <span class="sr-only">(current)</span></a>
+                     </li> 
+
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="#">Sign up <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                        <a class="nav-link" href="#">Log in <span class="sr-only">(current)</span></a>
+                                      </li>
+                          </ul>
+                  </div>
+
+                
+      </nav>
+      -->
+      <div class="hero-search-form" style = "top:-80px; background-color:red" >
+
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
+
+                                
+                                <form action="#" method="post" id="form">
+                                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+                                        <!--<input type="text" id="num1" name="number1" placeholder="From">-->
+                                        <select class="custom-select" id="num1">
+                                        <option selected >From</option>
+                                        <option value="1">BLR-Bangalore</option>
+                                        <option value="2">ATQ-Amritsar</option>
+                                        <option value="3">BHO-Bhopal</option>
+                                        <option value="4">BBI-Bhubaneswar</option>
+                                        <option value="5">MOM-Bombay</option>
+                                        <option value="6">CCU-Calcutta</option>
+                                        <option value="7">IXC-Chandigarh</option>
+                                        <option value="8">DEL-Delhi</option>
+                                        <option value="9">LKO-Lucknow</option>
+                                        <option value="10">PNQ-Pune</option>
+
+                                        </select>
+                                        &nbsp
+                                        <!--<input type="text" id="num2" name="number2" placeholder="To">-->
+                                        <select class="custom-select" id="num2">
+                                        <option selected>To</option>
+                                        <option value="1">BLR-Bangalore</option>
+                                        <option value="2">ATQ-Amritsar</option>
+                                        <option value="3">BHO-Bhopal</option>
+                                        <option value="4">BBI-Bhubaneswar</option>
+                                        <option value="5">MOM-Bombay</option>
+                                        <option value="6">CCU-Calcutta</option>
+                                        <option value="7">IXC-Chandigarh</option>
+                                        <option value="8">DEL-Delhi</option>
+                                        <option value="9">LKO-Lucknow</option>
+                                        <option value="10">PNQ-Pune</option>
+                                        </select>
+                                        
+                                        <input class="btn dorne-btn" style="background-color:white;color:black" type="date" id="num3" value="2019-12-22">
+                                      
+                                    <button  type="submit" class="btn dorne-btn" style="background-color:white;color:black"><i class="fa fa-search pr-2" aria-hidden="true"></i> Search Flights</button>
+                                </form>
+                                <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+                                <script src="/static/index.js"></script>
+                                </script>
+                            </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Hero Social Btn -->
+        <div style="position:absolute; right:450px; top:200px;"><div id ="print"></div><br><br></div>
+        <div style="position:absolute; right:100px; top:210px;" >
+          <br>
+          <div id="paytm_code">
+        </div>
+    
+          <br>
+          <br>
+          <br>
+          <script>
+          var paytm_code = {{de[0].flight.coupon.paytm|tojson}};
+          var mmt_code = {{de[0].flight.coupon.mmt|tojson}};
+          var goibigo_code = {{de[0].flight.coupon.goibigo|tojson}};
+          var yatra_code = {{de[0].flight.coupon.yatra|tojson}};
+          var happy_code = {{de[0].flight.coupon.happyeasygo|tojson}};
+          </script>
+          <div style="position:absolute; right:1250px; top:130px;">
+            <div class="sidebarside">
+          <button class="coupon_button1 coupon_button2" onclick="paytm(paytm_code)"><img src="/static/img/bg-img/paytm.png" style="width:35px;height:35px;float:left">Paytm Coupon</button><br>
+          <button class="coupon_button1 coupon_button2" onclick="mmt(mmt_code)"><img src="/static/img/bg-img/mmt.png" style="width:35px;height:35px;float:left">MMT Coupon</button><br>
+          <button class="coupon_button1 coupon_button2" onclick="goibigo(goibigo_code)"><img src="/static/img/bg-img/go.png" style="width:35px;height:35px;float:left">Goibigo Coupon</button><br>
+          <button class="coupon_button1 coupon_button2" onclick="yatra(yatra_code)"><img src="/static/img/bg-img/yatra.png" style="width:35px;height:35px;float:left">Yatra Coupon</button><br>
+          <button class="coupon_button1 coupon_button2" onclick="happyeasygo(happy_code)"><img src="/static/img/bg-img/happy.jpg" style="width:35px;height:35px;float:left">HappyEasyGo Coupon</button><br>
+
+        </div>
+      </div>
+        
+  <div class="content">
+    <div style="position:absolute; right:-20px; top:60px;">
+      <div class = "fl" >
+        <span>&emsp;&emsp;SRC</span>
+        <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Travel Time</span>
+        <span>&emsp;&emsp;&emsp;&emsp;&emsp;DST</span>
+        <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Price</span>
+        <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Estimated Price</span>
+      </div>
+    </div>
+    <br>
+    <br>
+	<div style="position:absolute; right:-20px; top:100px;overflow: scroll;height: 1000px;">
+   {% for i in de %}
+        <div class = "flight">
+        	<span><img src="https://goibibo.ibcdn.com/images/v2/carrierImages/6E.gif" style="width:30px;height:30px;">&emsp;{{i.flight.flight}} </span>
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <span style=" color : black;border-style: dotted; background-color:white" > paytm10 </span> &emsp;<span style = "color:green"> Applied From Paytm</span>
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <span style="color:green;text-decoration-line: underline;">saved 1000</span>
+        	<br>
+        	<span><span style="color:black">BLR</span> &emsp; <span style="color:black">{{i.flight.depart_time}}</span>
+        	&emsp;&emsp;&emsp;&emsp;<span style="color:black">{{i.flight.travel_time}}</span>
+        	&emsp;&emsp;&emsp;&emsp;
+        	<span><span style="color:black">DEL </span>&emsp; <span style="color:black">{{i.flight.arrival_time}}</span>
+        	&emsp;&emsp;&emsp;&emsp;&emsp;
+        	<span style="color:black">&#8377;<span style="color:black"> <strike> {{i.flight.price}} </strike></span>
+          &emsp;&emsp;
+          <span style="color:red;font-size: 9pt">-20%</span>
+          &emsp;&emsp;
+          <span style="color:black">&#8377;<span style="color:black;font-size: 17pt">6,105</span>
+        	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        	<a class="button1" href="https://paytm.com/flights"><span style="color:black">BOOK NOW</span></a>
+        	<br>
+        </div>
+        <br> 
+   {% endfor %}  
+</div>
+</div>
+
+<script>
+//var default_paytm_code = {{de[0].flight.coupon.paytm|tojson}};
+var default_paytm_code = {{de|tojson}};
+localStorage.setItem("paytm_code",JSON.stringify(default_paytm_code));
+d=localStorage.getItem("paytm_code");
+console.log("after");
+</script>
+</body>

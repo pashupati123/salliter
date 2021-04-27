@@ -1,0 +1,21 @@
+{
+"MNG-MangaloreBLR-2019-12-2Bangalore2": {
+        "arrival_time": "13:00",
+        "depart_time": "09:50",
+        "bus": "RedBus",
+        "number_of_stop": "Non Stop",
+        "price": "550",
+        "travel_time": "8h 10m",
+        "no_seats": "45"
+    },
+    "BLR-BangaloreMNG-Mangalore2019-12-22": {
+        "arrival_time": "13:00",
+        "depart_time": "09:50",
+        "bus": "RedBus",
+        "number_of_stop": "Non Stop",
+        "price": "550",
+        "no_seats": "45",
+        "travel_time": "8h 10m"
+}
+}
+

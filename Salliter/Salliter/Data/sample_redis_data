@@ -1,0 +1,656 @@
+[ec2-user@ip-172-31-7-77 ~]$ redis-cli hget flight DELLKO20200323 | python -m json.tool
+{
+    "flight": [
+        {
+            "arrival_time": "23:25",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "22:20",
+            "dst": "LKO",
+            "flight": "GoAir",
+            "price": 1722,
+            "src": "DEL",
+            "stops": "0",
+            "travel_time": "1h 5m"
+        },
+        {
+            "arrival_time": "22:15",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "21:10",
+            "dst": "LKO",
+            "flight": "IndiGo",
+            "price": 1933,
+            "src": "DEL",
+            "stops": "0",
+            "travel_time": "1h 5m"
+        },
+        {
+            "arrival_time": "10:20",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "09:00",
+            "dst": "LKO",
+            "flight": "IndiGo",
+            "price": 2232,
+            "src": "DEL",
+            "stops": "0",
+            "travel_time": "1h 20m"
+        },
+        {
+            "arrival_time": "19:40",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "18:30",
+            "dst": "LKO",
+            "flight": "Air India",
+            "price": 2547,
+            "src": "DEL",
+            "stops": "0",
+            "travel_time": "1h 10m"
+        },
+        {
+            "arrival_time": "07:40",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "06:00",
+            "dst": "LKO",
+            "flight": "GoAir",
+            "price": 3997,
+            "src": "DEL",
+            "stops": "1",
+            "travel_time": "9h 25m"
+        },
+        {
+            "arrival_time": "16:40",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "14:20",
+            "dst": "LKO",
+            "flight": "GoAir",
+            "price": 5662,
+            "src": "DEL",
+            "stops": "1",
+            "travel_time": "7h 40m"
+        },
+        {
+            "arrival_time": "10:10",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "08:00",
+            "dst": "LKO",
+            "flight": "GoAir",
+            "price": 5933,
+            "src": "DEL",
+            "stops": "1",
+            "travel_time": "9h 30m"
+        },
+        {
+            "arrival_time": "19:35",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "17:50",
+            "dst": "LKO",
+            "flight": "Air India",
+            "price": 8185,
+            "src": "DEL",
+            "stops": "1",
+            "travel_time": "16h 35m"
+        },
+        {
+            "arrival_time": "21:30",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "19:45",
+            "dst": "LKO",
+            "flight": "Air India",
+            "price": 9729,
+            "src": "DEL",
+            "stops": "2",
+            "travel_time": "14h 40m"
+        },
+        {
+            "arrival_time": "16:30",
+            "coupon": {
+                "goibibo": [
+                    {
+                        "coupon_coe": "tr",
+                        "date": "523",
+                        "value": "212"
+                    }
+                ],
+                "happyeasy": [
+                    {
+                        "coupon_coe": "yu",
+                        "date": "765",
+                        "value": "34"
+                    }
+                ],
+                "mmt": [
+                    {
+                        "coupon_coe": "absd",
+                        "date": "3454",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "er",
+                        "date": "123",
+                        "value": "2443"
+                    }
+                ],
+                "paytm": [
+                    {
+                        "coupon_coe": "abs",
+                        "date": "",
+                        "value": "30"
+                    },
+                    {
+                        "coupon_coe": "sd",
+                        "date": "3424",
+                        "value": "32"
+                    },
+                    {
+                        "coupon_coe": "ui",
+                        "date": "564",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "op",
+                        "date": "234",
+                        "value": "23"
+                    },
+                    {
+                        "coupon_coe": "asfaw",
+                        "date": "saf",
+                        "value": "sfasf"
+                    }
+                ]
+            },
+            "depart_time": "15:05",
+            "dst": "LKO",
+            "flight": "Air India",
+            "price": 11860,
+            "src": "DEL",
+            "stops": "1",
+            "travel_time": "19h 20m"
+        }
+    ]
+}
+[ec2-user@ip-17

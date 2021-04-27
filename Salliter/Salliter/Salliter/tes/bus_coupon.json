@@ -1,0 +1,51 @@
+[
+  {
+  	"disc": "REDBUS", 
+    "src": "https://s1.rdbuz.com/Images/INDOFFER/FESTIVE/New/274x147.png", 
+    "promocode": "FESTIVITY", 
+    "site_link": "https://www.redbus.in/", 
+    "validity": "9th Oct"
+   }, 
+    
+   {
+   	"disc": "MMT", 
+   	"src": "https://promos.makemytrip.com/store//bus-116x116-12062019.png", 
+   	"promocode": "RTC", 
+   	"site_link": "https://www.makemytrip.com/bus-tickets/", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "MMT", 
+   	"src": "https://promos.makemytrip.com/store//bus-116x116-19092019.png", 
+   	"promocode": "BUSICICI", 
+   	"site_link": "https://www.makemytrip.com/bus-tickets/", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "YATRA", 
+   	"src": "https://www.yatra.com/ythomepagecms/media/todayspick_bus/2019/Jul/c08108b569f2770e236c136fbcaeacf6.png", 
+   	"promocode": "NEWBUS", 
+   	"site_link": "https://www.yatra.com/bus-booking", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "YATRA", 
+   	"src": "https://www.yatra.com/ythomepagecms/media/todayspick_bus/2019/Oct/4569d5df5a03c6d225ba2d4aaebb69ed.png", 
+   	"promocode": "PAYWEEK", 
+   	"site_link": "https://www.yatra.com/bus-booking", 
+   	"validity": "9th Oct"
+   }, 
+
+   {
+   	"disc": "savemonk", 
+   	"src": "https://www.yatra.com/ythomepagecms/media/todayspick_bus/2019/Jul/4b19a355b49b3a8be59dfd6dddfff365.png", 
+   	"promocode": "SAVEMONKBUS", 
+   	"site_link": "https://www.yatra.com/bus-booking", 
+   	"validity": "9th Oct"
+   }
+ ]
+
+ 

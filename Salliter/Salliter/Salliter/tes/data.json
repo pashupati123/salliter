@@ -1,0 +1,42 @@
+{
+"ATQ-AmritsarBLR-Bangalore2019-12-22": {
+        "flight":{
+                "arrival_time": "13:00",
+                "depart_time": "09:50",
+                "flight": "IndiGo",
+                "number_of_stop": "Non Stop",
+                "price": "7,105",
+                "travel_time": "3h 10m",
+                "coupon_code":["abc","def","ghi","ang","abc","kmj","rty"],
+                "coupon":{
+                        "paytm":["paytm1","paytm2","paytm3","paytm4","paytm5","paytm6","paytm7","paytm8","paytm9","paytm10","paytm11","paytm12","paytm13","paytm14","paytm15","paytm16","paytm17","paytm18"],
+                        "mmt":["mmt1","mmt2","mmt3","mmt4","mmt5","mmt6","mmt7","mmt8","mmt9","mmt10","mmt11","mmt12","mmt13","mmt14","mmt15","mmt16","mmt17","mmt18"],
+                        "goibigo":["go1","go2","go3","go4","go5","go6","go7","go8","go9","go10","go11","go12","go13","go14","go15","go16","go17","go18"],
+                        "yatra":["yatra1","yatra2","yatra3","yatra4","yatra5","yatra6","yatra7","yatra8","yatra9","yatra10","yatra11","yatra12","yatra13","yatra14","yatra15","yatra16","yatra17","yatra18"],
+                        "happyeasygo":["happy1","happy2","happy3","happy4","happy5","happy6","happy7","happy8","happy9","happy10","happy11","happy12","happy13","happy14","happy15","happy16","happy17","happy18"]
+                         }
+                  }
+                  },
+
+"BLR-BangaloreATQ-Amritsar2019-12-22": {
+        "flight":{    
+                "arrival_time": "13:00",
+                "depart_time": "09:50",
+                "flight": "IndiGo",
+                "number_of_stop": "Non Stop",
+                "price": "7,105",
+                "travel_time": "3h 10m",
+                "coupon_code":["abc30","abc40","abc60","abc30","abc40","abc60","abc30"],
+                "coupon":{
+                        "paytm":["paytm1","paytm2","paytm3","paytm4","paytm5","paytm6","paytm7","paytm8","paytm9","paytm10","paytm11","paytm12","paytm13","paytm14","paytm15","paytm16","paytm17","paytm18"],
+                        "mmt":["mmt1","mmt2","mmt3","mmt4","mmt5","mmt6","mmt7","mmt8","mmt9","mmt10","mmt11","mmt12","mmt13","mmt14","mmt15","mmt16","mmt17","mmt18"],
+                        "goibigo":["go1","go2","go3","go4","go5","go6","go7","go8","go9","go10","go11","go12","go13","go14","go15","go16","go17","go18"],
+                        "yatra":["yatra1","yatra2","yatra3","yatra4","yatra5","yatra6","yatra7","yatra8","yatra9","yatra10","yatra11","yatra12","yatra13","yatra14","yatra15","yatra16","yatra17","yatra18"],
+                        "happyeasygo":["happy1","happy2","happy3","happy4","happy5","happy6","happy7","happy8","happy9","happy10","happy11","happy12","happy13","happy14","happy15","happy16","happy17","happy18"]
+                         }
+                  }
+
+                }
+}
+
+
